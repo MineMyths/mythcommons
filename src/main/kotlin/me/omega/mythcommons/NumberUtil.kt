@@ -1,7 +1,9 @@
 package me.omega.mythcommons
 
 import java.text.NumberFormat
-import kotlin.math.*
+import kotlin.math.floor
+import kotlin.math.log10
+import kotlin.math.pow
 
 private val M = arrayOf("", "M", "MM", "MMM")
 private val C = arrayOf("", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM")
@@ -28,15 +30,4 @@ fun pretty(number: Double): String? {
 
 fun roman(number: Int): String {
     return M[number / 1000] + C[number % 1000 / 100] + X[number % 100 / 10] + I[number % 10]
-}
-
-fun roundToFive(value: Double): Long {
-    var counter = 0
-    var temp = value.roundToInt()
-    while (temp / 10 >= 10) {
-        counter++
-        temp /= 10
-    }
-    val nearest = 5 * 10.0.pow(counter.toDouble())
-    return (ceil(value / nearest) * nearest).toLong()
 }
