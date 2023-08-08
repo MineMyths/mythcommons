@@ -19,8 +19,8 @@ import net.minestom.server.utils.NamespaceID
 import net.minestom.server.utils.location.RelativeVec
 import net.minestom.server.utils.math.IntRange
 import org.jglrxavpok.hephaistos.nbt.NBT
+import java.time.Duration
 import java.util.*
-import kotlin.time.Duration
 
 typealias SerializableBlock = @Serializable(with = BlockSerializer::class) Block
 typealias SerializableBossBar = @Serializable(with = BossBarSerializer::class) BossBar

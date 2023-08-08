@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e8ebd3-75a7-4185-8189-9604fbb7f228" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/omega/mythcommons/MathUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/omega/mythcommons/NumberUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/omega/mythcommons/NumberUtil.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691087195911</updated>
       <workItem from="1691087196967" duration="8932000" />
-      <workItem from="1691386577825" duration="50000" />
+      <workItem from="1691386577825" duration="1285000" />
     </task>
     <servers />
   </component>
